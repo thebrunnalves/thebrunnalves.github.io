@@ -6,6 +6,15 @@ function fullMenu()
 }
 
 
+function discountOff()
+{
+	$(".bandeiras-produto .bandeira-promocao").each(function ()
+	{
+		var i;
+		i = $(this).text().replace("Desconto", ""), $(this).text(i)
+	})
+}
+
 function shareThis()
 {
 	$("body.pagina-produto .produto-compartilhar").prepend($("<div class='sharethis-inline-share-buttons'></div>")), $(".sharethis-inline-share-buttons").append($("<script>",
