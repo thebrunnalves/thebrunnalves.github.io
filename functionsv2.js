@@ -11,6 +11,7 @@ function copyright()
 }
 
 
+
 function discountOff()
 {
 	$(".bandeiras-produto .bandeira-promocao").each(function ()
