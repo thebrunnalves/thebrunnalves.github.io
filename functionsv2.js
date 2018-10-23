@@ -13,6 +13,7 @@ function discountOff() {
     })
 }
 
+
 function shareThis() {
     $("body.pagina-produto .produto-compartilhar").prepend($("<div class='sharethis-inline-share-buttons'></div>")), $(".sharethis-inline-share-buttons").append($("<script>", {
         src: "//platform-api.sharethis.com/js/sharethis.js#property=5991eb27770096001434ea7d&product=inline-share-buttons"
