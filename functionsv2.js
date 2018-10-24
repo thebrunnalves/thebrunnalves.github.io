@@ -790,9 +790,9 @@ function measurementTable() {
     }
 }
 
-function calculateShipping(i, e) {
+/*function calculateShipping(i, e) {
     return i = i.replace("R$", "").replace(",", "."), e - Number(i)
-}
+}*/
 
 function formatResult(i) {
     return "R$ " + i.toFixed(2).replace(".", ",").toString()
