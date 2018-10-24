@@ -779,7 +779,6 @@ function tabsDescription() {
     })
 }
 
-/*
 function measurementTable() {
     if (void 0 !== TABELA_MEDIDAS) {
         var i = '<div class="measurement-table"> <button class="trigger-table">GUIA DE MEDIDAS</button> <div class="img-table"><button class="close-table">X</button><img src="' + TABELA_MEDIDAS.src + '" width="100%" height="100%" /> </div> </div>';
@@ -790,19 +789,6 @@ function measurementTable() {
         })
     }
 }
-*/
-
-function measurementTable() {
-    
-        var i = '<div class="measurement-table"> <button class="trigger-table">GUIA DE MEDIDAS</button> <div class="img-table"><button class="close-table">X</button><img src="http://www.myrp.com.br/wp-content/uploads/Medidas-Fita-Metrica-1024x1016.jpg" width="100%" height="100%" /> </div> </div>';
-        $(i).insertAfter($(".pagina-produto .produto .atributos")), $(document).on("click", ".trigger-table", function() {
-            $(this).addClass("active"), $(".img-table").slideDown("fast")
-        }), $(document).on("click", ".close-table", function() {
-            $(".trigger-table").removeClass("active"), $(".img-table").slideUp("fast")
-        })
-    }
-
-
 
 function calculateShipping(i, e) {
     return i = i.replace("R$", "").replace(",", "."), e - Number(i)
