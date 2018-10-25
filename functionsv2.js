@@ -922,8 +922,23 @@ function abrigaLogo(){
 
 
 function abrigaPainel(){
-    $(".inferior .row-fluid").append('<div class="abriga-painel"></div>');
+   $(".secao-banners").length && $(".secao-banners").append("sitefilhodaputa")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
