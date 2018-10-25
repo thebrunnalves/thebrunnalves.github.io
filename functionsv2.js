@@ -912,6 +912,7 @@ function whatsAppFixed() {
 
 function abrigaLogo(){
     $("#cabecalho .conteiner .row-fluid").find(".logo").closest(".span3").removeClass("span3").addClass("abriga-logo span3");
+    $(".span8.busca-mobile").removeClass("span8").addClass("span5");
 }
 
 var CONFIG_INSTAGRAM = void 0,
