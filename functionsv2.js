@@ -919,9 +919,14 @@ function abrigaLogo(){
     $(".span8.busca-mobile").removeClass("span8").addClass("span5");
 }
 
+
+
 function abrigaPainel(){
     $(".inferior .row-fluid").append('<div class="abriga-painel"></div>');
 }
+
+    
+
 
 
 
