@@ -1000,7 +1000,7 @@ if (_0xb81cx1b["length"]) {
                                      
 function abrigaMenu(){
     $("#cabecalho .conteiner").after('<div class="abriga-menu"><div class="conteiner"><div class="row-fluid"></div></div></div>');
-    
+    $(".abriga-menu .conteiner .row-fluid").prepend($("#cabecalho .menu.superior"));
 
                                                         
 $(".conteudo-topo .inferior .span4").remove();
