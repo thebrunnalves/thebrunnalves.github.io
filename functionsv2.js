@@ -975,38 +975,37 @@ $(".abriga-conta .entrar-mc").remove()
 }
 
 function contato(){
-$("#cabecalho .carrinho>a").append('<span class="texto-cart-cheio"> <strong>item(s)</strong></span>');
-$(".texto-cart-cheio").prepend($("#cabecalho .qtd-carrinho.titulo"));
-$("#cabecalho .carrinho>a").prepend('<svg class="icon-novocart"><use xlink:href="#novocart"></use></svg>');
-$("#cabecalho .carrinho>a i").remove();
-$("#cabecalho .carrinho .vazio-text").text("Nenhum item Adicionado");
-$(".contato-rodape ul").clone().appendTo(".atendimento-mc .contato-mc");
-$(".contato-mc").find(".fa-envelope").closest("li").addClass("mail-mc");
-$(".contato-mc").find(".icon-phone").closest("li").addClass("phone-mc");
-$(".contato-mc .fa.fa-whatsapp").remove();
-$(".contato-mc .icon-phone").remove();
-$(".contato-mc .fa.fa-envelope").remove();
-$(".contato-mc .fa.fa-skype").remove();
-$(".contato-mc .tel-whatsapp:contains('Whatsapp:')").html(function(_0xb81cx19, _0xb81cx1a) {
-return _0xb81cx1a.replace(/(Whatsapp:)/g, "<span class="whatsapp-n"><i class="fab fa-whatsapp"></i> Whatsapp:</span></br>")
+
+    $("#cabecalho .carrinho>a").append('<span class="texto-cart-cheio"> <strong>item(s)</strong></span>');
+    $(".texto-cart-cheio").prepend($("#cabecalho .qtd-carrinho.titulo"));
+    $("#cabecalho .carrinho>a").prepend('<svg class="icon-novocart"><use xlink:href="#novocart"></use></svg>');
+    $("#cabecalho .carrinho>a i").remove();
+    $("#cabecalho .carrinho .vazio-text").text("Nenhum item Adicionado");
+    $(".contato-rodape ul").clone().appendTo(".atendimento-mc .contato-mc");
+    $(".contato-mc").find(".fa-envelope").closest("li").addClass("mail-mc");
+    $(".contato-mc").find(".icon-phone").closest("li").addClass("phone-mc");
+    $(".contato-mc .fa.fa-whatsapp").remove();
+    $(".contato-mc .icon-phone").remove();
+    $(".contato-mc .fa.fa-envelope").remove();
+    $(".contato-mc .fa.fa-skype").remove();
+    $(".contato-mc .tel-whatsapp:contains('Whatsapp:')").html(function(_0xb81cx19, _0xb81cx1a) {
+        return _0xb81cx1a.replace(/(Whatsapp:)/g, '<span class="whatsapp-n"><i class="fab fa-whatsapp"></i> Whatsapp:</span></br>')
 });
                                               
 
 $(".contato-mc .phone-mc:contains('Telefone:')").html(function(_0xb81cx19, _0xb81cx1a) {
-return _0xb81cx1a.replace(/(Telefone:)/g, "<span class="telefone-n"><i class="fas fa-phone"></i></i> Telefone:</span></br>")
+return _0xb81cx1a.replace(/(Telefone:)/g, '<span class="telefone-n"><i class="fas fa-phone"></i></i> Telefone:</span></br>')
  });
                                                        
 
 $(".contato-mc .mail-mc:contains('E-mail:')").html(function(_0xb81cx19, _0xb81cx1a) {
-return _0xb81cx1a.replace(/(E-mail:)/g, "<span class="email-n"><i class="fas fa-envelope"></i> E-mail:</span></br>")
+return _0xb81cx1a.replace(/(E-mail:)/g, '<span class="email-n"><i class="fas fa-envelope"></i> E-mail:</span></br>')
 });
 $(".contato-mc .tel-skype:contains('Skype:')").html(function(_0xb81cx19, _0xb81cx1a) {
-return _0xb81cx1a.replace(/(Skype:)/g, "<span class="skype-n"><i class="fab fa-skype"></i> Skype:</span></br>")
+return _0xb81cx1a.replace(/(Skype:)/g, '<span class="skype-n"><i class="fab fa-skype"></i> Skype:</span></br>')
 });
-if ($("#cabecalho .qtd-carrinho.titulo:contains(" 0 ")")["length"] > 0) {
-$("#cabecalho .carrinho>a strong").remove();
-$(".icon-novocart").css("margin-bottom", "13px")
-};
+
+
 }
 
 
