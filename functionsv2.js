@@ -931,11 +931,11 @@ function abrigaPainel(){
 
 function abrigaConta{
 
-    $(".abriga-painel .abriga-conta").append($("#cabecalho .login-inside"));
+    $(".abriga-painel .abriga-conta").append($("#cabecalho .login-inside"))
 }
 
 function abrigaCarrinho {
-    $(".abriga-painel .abriga-carrinho").append($("#cabecalho .carrinho"));
+    $(".abriga-painel .abriga-carrinho").append($("#cabecalho .carrinho"))
 }
 
 
