@@ -922,7 +922,7 @@ function abrigaLogo(){
 
 
 function abrigaPainel(){
-    $(".conteudo-topo .inferior").append('<div class="abriga-painel span6 offset1"></div>');
+    $(".conteudo-topo .inferior").append('<div class="abriga-painel span6 offset1"></div>')
 }
 
 
