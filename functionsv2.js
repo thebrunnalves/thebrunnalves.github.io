@@ -990,45 +990,23 @@ function abrigaContato(){
     $(".contato-mc .fa.fa-skype").remove();
     $(".contato-mc .tel-whatsapp:contains('Whatsapp:')").html(function(_0xb81cx19, _0xb81cx1a) {
         return _0xb81cx1a.replace(/(Whatsapp:)/g, '<span class="whatsapp-n"><i class="fab fa-whatsapp"></i> Whatsapp:</span></br>')
-});
+})
                                               
 
 $(".contato-mc .phone-mc:contains('Telefone:')").html(function(_0xb81cx19, _0xb81cx1a) {
 return _0xb81cx1a.replace(/(Telefone:)/g, '<span class="telefone-n"><i class="fas fa-phone"></i></i> Telefone:</span></br>')
- });
+ })
                                                        
 
 $(".contato-mc .mail-mc:contains('E-mail:')").html(function(_0xb81cx19, _0xb81cx1a) {
 return _0xb81cx1a.replace(/(E-mail:)/g, '<span class="email-n"><i class="fas fa-envelope"></i> E-mail:</span></br>')
-});
+})
 $(".contato-mc .tel-skype:contains('Skype:')").html(function(_0xb81cx19, _0xb81cx1a) {
 return _0xb81cx1a.replace(/(Skype:)/g, '<span class="skype-n"><i class="fab fa-skype"></i> Skype:</span></br>')
-});
+})
 
 
 }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
