@@ -1022,7 +1022,7 @@ function abrigaContato(){
 
     $("#cabecalho .carrinho>a").append('<span class="texto-cart-cheio"> <strong>item(s)</strong></span>');
     $(".texto-cart-cheio").prepend($("#cabecalho .qtd-carrinho.titulo"));
-    $("#cabecalho .carrinho>a").prepend('<svg class="icon-novocart"><use xlink:href="#novocart"></use></svg>');
+    $("#cabecalho .carrinho>a").prepend('<span class="fas fa-shopping-cart"></span>">');
     $("#cabecalho .carrinho>a i").remove();
     $("#cabecalho .carrinho .vazio-text").text("Nenhum item Adicionado");
     $(".contato-rodape ul").clone().appendTo(".atendimento-mc .contato-mc");
