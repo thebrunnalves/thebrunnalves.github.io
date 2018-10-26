@@ -961,6 +961,8 @@ function abrigaConta(){
     $(".conteudo-topo .superior").find(".btn-group").closest(".span8").removeClass("span8").addClass("login-inside");
     $(".abriga-painel .abriga-conta").append($("#cabecalho .login-inside"));
     $(".login-inside").prepend('<a href="https://madfox.com.br/conta/login" class="bem-vindo cor-secundaria"> <svg class="icon-novouser"><use xlink:href="#novouser"></use></svg><span class="cor-principal"></span>Minha<br>Conta</a>');
+    $(".login-inside .btn-group").remove();
+
 }
 
 function abrigaCarrinho() {
