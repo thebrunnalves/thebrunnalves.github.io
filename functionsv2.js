@@ -973,6 +973,7 @@ $(".abriga-conta .central-drop ul").append('<li class="botao-sair"><a href="/con
 $(".abriga-conta .cadastrar-mc").remove();
 $(".abriga-conta .entrar-mc").remove()
 }
+}
 
 function abrigaContato(){
 
