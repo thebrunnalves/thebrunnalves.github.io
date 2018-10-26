@@ -992,17 +992,6 @@ if (_0xb81cx1b["length"]) {
 
 
 
-                                                        $(".abriga-conta .btn-group .dropdown-menu").remove();
-                                                        if ($(".abriga-conta .btn-group")["length"] !== 0) {
-
-                                                            $(".abriga-conta .central-drop ul").prepend("<li class="minhaconta - mc "><a href=" / conta / index "><i class="fas fa - user "></i></i>Minha Conta</a></li>");
-                                                            $(".abriga-conta .central-drop ul").append("<li class="botao - sair "><a href=" / conta / logout "><i class="far fa - times - circle "></i>Sair</a></li>");                                                            
-                                                            $(".abriga-conta .cadastrar-mc").remove();
-                                                            $(".abriga-conta .entrar-mc").remove()
-                                                        };
-
-
-
 
                                      
 function abrigaMenu(){
