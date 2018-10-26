@@ -923,19 +923,19 @@ function abrigaLogo(){
 function abrigaPainel(){
     $(".conteudo-topo .inferior").append('<div class="abriga-painel span6 offset1"><ul><li class=" abriga-atendimento"><span><i class="far fa-comment-alt"></i><span class="ri-cd"><small>Precisa de ajuda?</small><strong>Atendimento<i class="fas fa-caret-down"></i></strong></span></span><div class="central-drop atendimento-mc"><div class="contato-mc"></div><div class="rastreio"><span><i class="fas fa-map-marker-alt"></i> Rastrear Pedido</span><input type="hidden" name="P_TIPO" value="001"><input type="text" placeholder="Digite seu código" id="input-rastreio"><button type="submit " class="botao"><i class="fas fa-angle-right"></i></button></div></div></li><li class="abriga-conta"></li><li class="abriga-carrinho"></li></ul></div>')
 
-   /* $(".rastreio .botao").click(function() {
+    $(".rastreio .botao").click(function() {
         var _0xb81cx18 = document.getElementById("input-rastreio")["value"];
         window.open("https://rastreamentocorreios.info/consulta/" + _0xb81cx18, "_blank")
-    });*/
+    });
 }
 
-function abrigaConta{
+function abrigaConta(){
 
-    $(".abriga-painel .abriga-conta").append($("#cabecalho .login-inside"))
+    $(".abriga-painel .abriga-conta").append($("#cabecalho .login-inside"));
 }
 
-function abrigaCarrinho {
-    $(".abriga-painel .abriga-carrinho").append($("#cabecalho .carrinho"))
+function abrigaCarrinho() {
+    $(".abriga-painel .abriga-carrinho").append($("#cabecalho .carrinho"));
 }
 
 
