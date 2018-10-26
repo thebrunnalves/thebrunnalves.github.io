@@ -960,10 +960,13 @@ function abrigaConta(){
     $(".conteudo-topo .superior").find(".bem-vindo").closest(".span8").removeClass("span8").addClass("login-inside");
     $(".conteudo-topo .superior").find(".btn-group").closest(".span8").removeClass("span8").addClass("login-inside");
     $(".abriga-painel .abriga-conta").append($("#cabecalho .login-inside"));
-    $(".login-inside").prepend('<i class="fas fa-user-circle"></i><a href="https://madfox.com.br/conta/login" class="bem-vindo cor-secundaria"> <svg class="icon-novouser"><use xlink:href="#novouser"></use></svg><span class="cor-principal"></span>Minha<br>Conta</a>');
+    $(".login-inside").prepend('<a href="https://madfox.com.br/conta/login" class="bem-vindo cor-secundaria"><span class="fas fa-user-circle"></span><span class="cor-principal"></span>Minha<br>Conta</a>');
     $(".login-inside .btn-group").remove();
 
 }
+
+
+
 
 function abrigaCarrinho() {
     $(".abriga-painel .abriga-carrinho").append($("#cabecalho .carrinho"));
