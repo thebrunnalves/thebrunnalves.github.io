@@ -972,6 +972,7 @@ function abrigaMenu(){
 
                                                         
 $(".conteudo-topo .inferior .span4").remove();
+$(".conteudo-topo .superior").remove();
 $(".abriga-conta").append('<div class="central-drop conta-mc"><ul><li class="cadastrar-mc"><a href="/conta/login"><i class="fas fa-user-edit"></i>Cadastrar</a></li><li class="entrar-mc"><a href="/conta/login"><i class="fas fa-sign-in-alt"></i>Entrar</a></li><li class="pedidos-mc"><a href="/conta/login?next=/conta/pedido/listar"><i class="fas fa-list-alt"></i></i>Meus Pedidos</a></li><li class="desejos-mc"><a href="/conta/favorito/listar"><i class="fas fa-heart"></i>Meus Favoritos</a></li></ul></div>');
 
 
