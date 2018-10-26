@@ -983,11 +983,8 @@ $(".abriga-conta .central-drop ul").prepend('<li class="minhaconta-mc "><a href=
 $(".abriga-conta .central-drop ul").append('<li class="botao-sair"><a href="/conta/logout"><i class="far fa-times-circle"></i>Sair</a></li>');                                                            
 $(".abriga-conta .cadastrar-mc").remove();
 $(".abriga-conta .entrar-mc").remove()
-
-
-
 }
-
+}
 
 
 
