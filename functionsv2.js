@@ -922,19 +922,8 @@ function abrigaLogo(){
 
 
 function abrigaPainel(){
-    $(".conteudo-topo .inferior").append("<div class="'abriga-painel span6 offset1'"></div>");
+    $(".conteudo-topo .inferior").append('<div class="abriga-painel span6 offset1"></div>');
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -961,16 +950,4 @@ var CONFIG_INSTAGRAM = void 0,
 $(function() {
    /* fullMenu(), menuMobile(), headerFixed(), searchFixed(), cartWithPrice(), app(),*/ abrigaLogo(), abrigaPainel(), infoBanner(), benefitsMobile(), /*tracking(),*/ discountOff(), addWishlist(), responsiveShowcase(), shareThis(), tabsDescription(), /*measurementTable(), whatsAppFixed(),*/ video(), instagram(), /*freeShippingNotice(),*/ busca(), goTop()
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
