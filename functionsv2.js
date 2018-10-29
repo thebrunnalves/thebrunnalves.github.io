@@ -963,6 +963,16 @@ function abrigaConta(){
     $(".login-inside").prepend('<a href="https://madfox-manutencao.lojaintegrada.com.br/conta/login" class="bem-vindo cor-secundaria"><span class="fas fa-user-circle"></span><span class="cor-principal"></span>Minha<br>Conta</a>');
     $(".login-inside .btn-group").remove();
 
+$(".abriga-conta").append('<div class="central-drop conta-mc"><ul><li class="cadastrar-mc"><a href="/conta/login"><i class="fas fa-user-edit"></i>Cadastrar</a></li><li class="entrar-mc"><a href="/conta/login"><i class="fas fa-sign-in-alt"></i>Entrar</a></li><li class="pedidos-mc"><a href="/conta/login?next=/conta/pedido/listar"><i class="fas fa-list-alt"></i></i>Meus Pedidos</a></li><li class="desejos-mc"><a href="/conta/favorito/listar"><i class="fas fa-heart"></i>Meus Favoritos</a></li></ul></div>');
+$(".abriga-conta .btn-group .dropdown-menu").remove();
+
+if ($(".abriga-conta .btn-group")["length"] !== 0) {
+$(".abriga-conta .central-drop ul").prepend('<li class="minhaconta-mc"><a href="/conta/index"><i class="fas fa-user"></i></i>Minha Conta</a></li>');
+$(".abriga-conta .central-drop ul").append('<li class="botao-sair"><a href="/conta/logout"><i class="far fa-times-circle"></i>Sair</a></li>');                                                            
+$(".abriga-conta .cadastrar-mc").remove();
+$(".abriga-conta .entrar-mc").remove()
+}
+
 }
 
 
@@ -1005,17 +1015,7 @@ function abrigaMenu(){
                                                         
     $(".conteudo-topo .inferior .span4").remove();
     $(".conteudo-topo .superior").remove();
-    $(".abriga-conta").append('<div class="central-drop conta-mc"><ul><li class="cadastrar-mc"><a href="/conta/login"><i class="fas fa-user-edit"></i>Cadastrar</a></li><li class="entrar-mc"><a href="/conta/login"><i class="fas fa-sign-in-alt"></i>Entrar</a></li><li class="pedidos-mc"><a href="/conta/login?next=/conta/pedido/listar"><i class="fas fa-list-alt"></i></i>Meus Pedidos</a></li><li class="desejos-mc"><a href="/conta/favorito/listar"><i class="fas fa-heart"></i>Meus Favoritos</a></li></ul></div>');
 
-
-    $(".abriga-conta .btn-group .dropdown-menu").remove();
-
-if ($(".abriga-conta .btn-group")["length"] !== 0) {
-$(".abriga-conta .central-drop ul").prepend('<li class="minhaconta-mc"><a href="/conta/index"><i class="fas fa-user"></i></i>Minha Conta</a></li>');
-$(".abriga-conta .central-drop ul").append('<li class="botao-sair"><a href="/conta/logout"><i class="far fa-times-circle"></i>Sair</a></li>');                                                            
-$(".abriga-conta .cadastrar-mc").remove();
-$(".abriga-conta .entrar-mc").remove()
-}
 }
 
 
