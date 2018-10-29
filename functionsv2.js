@@ -960,7 +960,7 @@ function abrigaConta(){
     $(".conteudo-topo .superior").find(".bem-vindo").closest(".span8").removeClass("span8").addClass("login-inside");
     $(".conteudo-topo .superior").find(".btn-group").closest(".span8").removeClass("span8").addClass("login-inside");
     $(".abriga-painel .abriga-conta").append($("#cabecalho .login-inside"));
-    $(".login-inside").prepend('<a href="https://madfox.com.br/conta/login" class="bem-vindo cor-secundaria"><span class="fas fa-user-circle"></span><span class="cor-principal"></span>Minha<br>Conta</a>');
+    $(".login-inside").prepend('<a href="https://madfox-manutencao.lojaintegrada.com.br/conta/login" class="bem-vindo cor-secundaria"><span class="fas fa-user-circle"></span><span class="cor-principal"></span>Minha<br>Conta</a>');
     $(".login-inside .btn-group").remove();
 
 }
@@ -999,7 +999,7 @@ if (_0xb81cx1b["length"]) {
 
                                      
 function abrigaMenu(){
-
+    $("#cabecalho .conteiner").after('<div class="abriga-menu"><div class="conteiner"><div class="row-fluid"></div></div></div>');
     $(".abriga-menu .conteiner .row-fluid").prepend($("#cabecalho .menu.superior"));
 
                                                         
