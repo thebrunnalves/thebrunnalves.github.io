@@ -1014,6 +1014,9 @@ if (_0xb81cx1b["length"]) {
     _0xb81cx1b.html(_0xb81cx1b.html().replace("fazer pedidos", "Minha<br>Conta"))
 };
 
+$(".login-inside").prepend('<a href="https://madfox-manutencao.lojaintegrada.com.br/conta/login" class="bem-vindo cor-secundaria"><span class="fas fa-user-circle"></span><span class="cor-principal"></span>Minha<br>Conta</a>');
+$(".login-inside .btn-group").remove();
+
 
 }
 
@@ -1042,8 +1045,7 @@ function dropDown(){
 
 
 
-$(".login-inside").prepend('<a href="https://madfox-manutencao.lojaintegrada.com.br/conta/login" class="bem-vindo cor-secundaria"><span class="fas fa-user-circle"></span><span class="cor-principal"></span>Minha<br>Conta</a>');
-$(".login-inside .btn-group").remove();
+
 
 
 
