@@ -954,7 +954,7 @@ function abrigaConta(){
 }
 
 function abrigaPainel(){
-    $(".conteudo-topo .inferior").append('<div class="abriga-painel span6 offset1"><ul><li class="abriga-atendimento"><span><i class="far fa-comment-alt"></i><span class="ri-cd"><small>Precisa de ajuda?</small><strong>Atendimento<i class="fas fa-caret-down"></i></strong></span></span><div class="central-drop atendimento-mc"><div class="contato-mc"></div><div class="rastreio"><span><i class="fas fa-map-marker-alt"></i> Rastrear Pedido</span><input type="hidden" name="P_TIPO" value="001"><input type="text" placeholder="Digite seu código" id="input-rastreio"><button type="submit " class="botao"><i class="fas fa-angle-right"></i></button></div></div></li><li class="abriga-conta"></li><li class="abriga-carrinho"></li></ul></div>')
+    $(".conteudo-topo .inferior").append('<div class="abriga-painel span6 offset1"><ul><li class="abriga-atendimento"><span><i class="far fa-comment-alt"></i><span class="ri-cd"><small>Precisa de ajuda?</small><strong>Atendimento<i class="fas fa-caret-down"></i></strong></span></span><div class="central-drop atendimento-mc borda-principal"><div class="contato-mc"></div><div class="rastreio"><span><i class="fas fa-map-marker-alt"></i> Rastrear Pedido</span><input type="hidden" name="P_TIPO" value="001"><input type="text" placeholder="Digite seu código" id="input-rastreio"><button type="submit " class="botao"><i class="fas fa-angle-right"></i></button></div></div></li><li class="abriga-conta"></li><li class="abriga-carrinho"></li></ul></div>')
 
     $(".rastreio .botao").click(function() {
         var _0xb81cx18 = document.getElementById("input-rastreio")["value"];
@@ -1011,7 +1011,6 @@ function bemVindo(){
 var _0xb81cx1b = $("#cabecalho .bem-vindo");
 if (_0xb81cx1b["length"]) {
     _0xb81cx1b.html(_0xb81cx1b.html().replace("Bem-vindo,", ""));
-    _0xb81cx1b.html(_0xb81cx1b.html().replace("Bem-vindo,", ""));
     _0xb81cx1b.html(_0xb81cx1b.html().replace("identifique-se", ""));
     _0xb81cx1b.html(_0xb81cx1b.html().replace("para", ""));
     _0xb81cx1b.html(_0xb81cx1b.html().replace("fazer pedidos", "Minha<br>Conta"))
@@ -1037,7 +1036,7 @@ function abrigaMenu(){
 
 function dropDown(){
 
-    $(".abriga-conta").append('<div class="central-drop conta-mc"><ul><li class="cadastrar-mc"><a href="/conta/login"><i class="fas fa-user-edit"></i>Cadastrar</a></li><li class="entrar-mc"><a href="/conta/login"><i class="fas fa-sign-in-alt"></i>Entrar</a></li><li class="pedidos-mc"><a href="/conta/login?next=/conta/pedido/listar"><i class="fas fa-list-alt"></i></i>Meus Pedidos</a></li><li class="desejos-mc"><a href="/conta/favorito/listar"><i class="fas fa-heart"></i>Meus Favoritos</a></li></ul></div>');
+    $(".abriga-conta").append('<div class="central-drop conta-mc borda-principal"><ul><li class="cadastrar-mc"><a href="/conta/login"><i class="fas fa-user-edit"></i>Cadastrar</a></li><li class="entrar-mc"><a href="/conta/login"><i class="fas fa-sign-in-alt"></i>Entrar</a></li><li class="pedidos-mc"><a href="/conta/login?next=/conta/pedido/listar"><i class="fas fa-list-alt"></i></i>Meus Pedidos</a></li><li class="desejos-mc"><a href="/conta/favorito/listar"><i class="fas fa-heart"></i>Meus Favoritos</a></li></ul></div>');
 
     $(".abriga-conta .btn-group .dropdown-menu").remove();
 
