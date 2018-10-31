@@ -998,7 +998,10 @@ $(".contato-mc .tel-skype:contains('Skype:')").html(function(_0xb81cx19, _0xb81c
 return _0xb81cx1a.replace(/(Skype:)/g, '<span class="skype-n"><i class="fab fa-skype"></i> Skype:</span></br>')
 })
 
-
+if ($("#cabecalho .qtd-carrinho.titulo:contains(' 0 ')")["length"] > 0) {
+    $("#cabecalho .carrinho>a strong").remove();
+    $(".icon-novocart").css("margin-bottom", "13px")
+};
 }
 
 
