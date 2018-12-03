@@ -34,7 +34,7 @@ function instagram() {
                     type: "GET",
                     data: {
                         access_token: t,
-                        count: 6
+                        count: 5
                     },
                     success: function(e) {
                         for (var t = 0; t < e.data.length; t++) i.append('<li><a href="' + e.data[t].link + '" target="_blank"><img src="' + e.data[t].images.standard_resolution.url + '" width="250" height="250" /></li>')
