@@ -1035,7 +1035,7 @@ function abrigaMenu(){
 }
 
 
-function removeConteudoTopo {
+function removeConteudoTopo(){
     $(".conteudo-topo .inferior .span4").remove();
     $(".conteudo-topo .superior").remove();
 }
